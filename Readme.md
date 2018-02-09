@@ -1,3 +1,3 @@
-# Conversor de binario para decimal
+# Conversor de decimal em binario
 
-Código simples feito em python para converter um numero binario em decimal
+Código simples feito em python para converter um numero decimal em binario
