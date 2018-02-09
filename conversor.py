@@ -11,5 +11,5 @@ def bin_to_decimal(n):
     n //=2
   return reverse(res)
 
-number = int(input("type a number"))
-print(bin_to_decimal(number))
+number = int(input("Type a number to convert: "))
+print("{0} is {1} in binary".format(number, bin_to_decimal(number)))
