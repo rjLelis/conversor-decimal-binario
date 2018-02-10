@@ -1,10 +1,12 @@
 def reverse(s):
+  ''' Reverses a string '''
   str = ""
   for i in s:
     str = i + str
   return str
 
 def bin_to_decimal(n):
+  ''' Convertes a decimal number to binary '''
   res = ""
   while n > 0:
     res+= str(n % 2)
