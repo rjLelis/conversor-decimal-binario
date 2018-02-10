@@ -5,7 +5,7 @@ def reverse(s):
     str = i + str
   return str
 
-def bin_to_decimal(n):
+def decimal_to_bin(n):
   ''' Convertes a decimal number to binary '''
   res = ""
   while n > 0:
@@ -13,5 +13,5 @@ def bin_to_decimal(n):
     n //=2
   return reverse(res)
 
-number = int(input("Type a number to convert: "))
-print("{0} is {1} in binary".format(number, bin_to_decimal(number)))
+number = int(input("Type a decimal number to convert: "))
+print("{0} is {1} in binary".format(number, decimal_to_bin(number)))
