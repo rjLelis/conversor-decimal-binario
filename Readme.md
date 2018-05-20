@@ -1,3 +1,7 @@
 # Number conversor
 
-Converts binary -> decimal & decimal -> binary
+## Converts 
+
+binary -> decimal
+
+decimal -> binary
