@@ -1,8 +1,8 @@
-def reverse(s):
+def reverse(string):
   ''' Reverses a string '''
-  str = ""
-  for i in s:
-    str = i + str
+  new_string = ""
+  for s in string:
+    new_string = s + new_string
   return str
 
 def decimal_to_bin(n):
@@ -14,4 +14,4 @@ def decimal_to_bin(n):
   return reverse(res)
 
 number = int(input("Type a decimal number to convert: "))
-print("{0} is {1} in binary".format(number, decimal_to_bin(number)))
+print(f"{number} is {decimal_to_bin(number)} in binary")
