@@ -1,9 +1,6 @@
 def reverse(string):
   ''' Reverses a string '''
-  new_string = ""
-  for s in string:
-    new_string = s + new_string
-  return str
+  return string[::-1]
 
 def decimal_to_bin(n):
   ''' Convertes a decimal number to binary '''

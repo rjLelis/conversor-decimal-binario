@@ -4,7 +4,7 @@ def bin_to_decimal(binary):
     bits = []
     bit = 1
     for _ in range(0, len(binary)):
-        bits.append(b)
+        bits.append(bit)
         bit*=2
     bits.reverse()
     res = 0
