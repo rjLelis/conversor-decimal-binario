@@ -10,6 +10,3 @@ def decimal_to_bin(decimal_number):
         res += str(decimal_number % 2)
         decimal_number //= 2
     return reverse(res)
-
-number = int(input("Type a decimal number to convert: "))
-print(f"{number} is {decimal_to_bin(number)} in binary")
