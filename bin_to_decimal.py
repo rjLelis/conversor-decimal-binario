@@ -1,17 +1,17 @@
-def bin_to_decimal(binary):
+def bin_to_decimal(binary_number):
     ''' Converts a binary number to decimal '''
-    binary = str(binary)
-    bits = []
+    binary_number = str(binary_number)
+    bytes = []
     bit = 1
-    for _ in range(0, len(binary)):
-        bits.append(bit)
+    for _ in range(len(binary_number)): # Sets the array of bytes
+        bytes.append(bit)
         bit*=2
-    bits.reverse()
-    res = 0
-    for n in range(0, len(binary)):
-        if binary[n] == "1":
-            res += bits[n]
-    return res
+    bytes.reverse()
+    decimal_number = 0
+    for b in range(len(binary_number)):
+        if binary_number[b] == "1":
+            decimal_number += bytes[b]
+    return decimal_number
 
 number = input("Type a binary number to convert: ")
 print(f"{number} is {bin_to_decimal(number)} in decimal")
