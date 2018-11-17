@@ -3,9 +3,9 @@ def bin_to_decimal(binary_number):
     binary_number = str(binary_number)
     bytes = []
     bit = 1
-    for _ in range(len(binary_number)): # Sets the array of bytes
+    for _ in range(len(binary_number)):  # Sets the array of bytes
         bytes.append(bit)
-        bit*=2
+        bit *= 2
     bytes.reverse()
     decimal_number = 0
     for b in range(len(binary_number)):
